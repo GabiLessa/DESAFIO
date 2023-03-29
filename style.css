@@ -1,0 +1,59 @@
+.background {
+  background-image: url("./img/banner.png");
+  background-size: cover;
+  padding: 0.26rem 0.75rem 0 0.75rem;
+  height: 100vh;
+  padding: 0.26rem 0.75rem 0 0.75rem;
+}
+main {
+  display: inline-flexbox;
+}
+.poster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 170px;
+  left: 40px;
+  width: 450px;
+}
+.banerposter {
+  width: 450px;
+}
+.sinopse {
+  font-weight: bold;
+  color: beige;
+  line-height: 150%;
+}
+.assistir {
+  border: none;
+  margin: 10px 10px 10px 0;
+  background-color: rgba(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 2px;
+  font-size: 16px;
+  text-decoration: none;
+  width: 200px;
+}
+.assistir:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.informacoes {
+  border: none;
+  margin: 10px 10px 10px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255);
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.informacoes:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
